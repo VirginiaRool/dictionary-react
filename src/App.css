@@ -1,13 +1,18 @@
+.App,
+.container {
+  font-family: "Lato", sans-serif;
+}
+
 .App-header {
   padding: 20px;
   text-align: center;
-  background: radial-gradient(
+  background-color: #e4e3e9;
+
+  /* background: radial-gradient(
     343px at 46.3% 47.5%,
     rgb(242, 242, 242) 0%,
     rgb(241, 241, 241) 72.9%
-  );
-
-  /* font-family: 'Roboto', sans-serif; */
+  ); */
 }
 
 .App-logo {
@@ -18,4 +23,11 @@
   font-weight: bold;
   font-size: 30px;
   color: grey;
+}
+
+.App-footer {
+  font-size: 13px;
+  text-align: center;
+  background-color: #e4e3e9;
+  padding: 10px;
 }

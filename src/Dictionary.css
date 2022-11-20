@@ -1,0 +1,11 @@
+.Dictionary {
+  background: #e4e3e9;
+  padding: 20px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+.Dictionary .text-instructions {
+  color: #f2098e;
+  font-weight: bold;
+}
