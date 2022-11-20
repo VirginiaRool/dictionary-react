@@ -15,6 +15,7 @@ export default function App() {
           <a
             href="https://github.com/VirginiaRool/dictionary-react"
             target="_blank"
+            rel="noreferrer"
           >
             Open source code
           </a>{" "}
