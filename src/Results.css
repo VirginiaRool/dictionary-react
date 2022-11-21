@@ -1,0 +1,9 @@
+.Results {
+  padding-top: 12px;
+}
+
+.Results .word {
+  color: #f2098e;
+  font-weight: bold;
+  padding-top: 12px;
+}
