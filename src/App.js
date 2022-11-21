@@ -4,8 +4,8 @@ import Dictionary from "./Dictionary";
 
 export default function App() {
   return (
-    <div className="container">
-      <div className="App">
+    <div className="App">
+      <div className="container">
         <header className="App-header">
           <div className="App-welcome-text">Welcome to</div>
           <img src={myDictionaryLogo} className="App-logo" alt="logo" />
