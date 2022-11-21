@@ -1,12 +1,11 @@
-.App,
-.container {
+.App {
   font-family: "Lato", sans-serif;
+  background-color: #e4e3e9;
 }
 
 .App-header {
   padding: 20px;
   text-align: center;
-  background-color: #e4e3e9;
 }
 
 .App-logo {
@@ -22,6 +21,5 @@
 .App-footer {
   font-size: 13px;
   text-align: center;
-  background-color: #e4e3e9;
   padding: 10px;
 }
