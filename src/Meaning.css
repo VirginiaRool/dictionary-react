@@ -1,0 +1,7 @@
+.Meaning {
+  text-align: justify;
+}
+
+.Meaning h3 ::first-letter {
+  text-transform: uppercase;
+}

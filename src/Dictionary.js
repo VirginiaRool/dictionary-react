@@ -5,12 +5,10 @@ import Results from "./Results";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
-  let [resultsList, setResultsList] = useState({});
+  let [resultsList, setResultsList] = useState(null);
 
   function handleResponse(response) {
-    setResultsList(response.data[0]);
-    console.log(response.data[0]);
-    console.log(response.data[0].meaning[0].definitions[0].definitions);
+    setResultsList(response.data);
   }
 
   function handleKeywordChange(event) {
@@ -18,18 +16,25 @@ export default function Dictionary() {
   }
 
   //documentation: https://dictionaryapi.dev/
-  let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-  axios.get(apiUrl).then(handleResponse);
+  function search() {
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
+    axios.get(apiUrl).then(handleResponse);
+  }
 
-  function search(event) {
+  function handleSubmit(event) {
     event.preventDefault();
+    search();
   }
 
   return (
     <div className="Dictionary">
       <div className="text-instructions">Search for any word</div>
-      <form onSubmit={search}>
-        <input type="search" onChange={handleKeywordChange}></input>
+      <form onSubmit={handleSubmit}>
+        <input
+          type="search"
+          placeholder="Write here..."
+          onChange={handleKeywordChange}
+        ></input>
       </form>
       <Results results={resultsList} />
     </div>
