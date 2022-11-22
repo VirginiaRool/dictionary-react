@@ -30,3 +30,7 @@
 .App-footer a {
   color: #05aeb9;
 }
+
+.App-footer a:hover {
+  color: #ee5b3e;
+}

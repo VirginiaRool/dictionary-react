@@ -5,5 +5,11 @@
 
 .Dictionary .text-instructions {
   color: #ced4da;
-  padding-bottom: 5px;
+}
+
+input {
+  width: 50%;
+  border-radius: 7px;
+  text-align: center;
+  margin: 8px 0px;
 }

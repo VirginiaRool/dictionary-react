@@ -23,6 +23,6 @@
 }
 
 .Meaning .example {
-  opacity: 0.9;
-  text-indent: 3px;
+  color: grey;
+  padding-left: 16px;
 }
