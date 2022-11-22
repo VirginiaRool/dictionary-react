@@ -1,7 +1,28 @@
 .Meaning {
   text-align: justify;
+  font-family: "Lato", sans-serif;
+  background: #f1f0f7;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px 5px 20px 5px;
+  color: #222960;
 }
 
-.Meaning h3 ::first-letter {
-  text-transform: uppercase;
+.Meaning .partOfSpeech {
+  font-weight: 700;
+  font-size: 20px;
+  color: #ee5b3e;
+}
+
+.Meaning .synonym {
+  padding-bottom: 10px;
+}
+
+.Meaning .definition {
+  font-weight: 700;
+}
+
+.Meaning .example {
+  opacity: 0.9;
+  text-indent: 3px;
 }
