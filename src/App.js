@@ -12,14 +12,23 @@ export default function App() {
         </header>
         <Dictionary />
         <footer className="App-footer">
+          Open source code on{" "}
           <a
             href="https://github.com/VirginiaRool/dictionary-react"
             target="_blank"
             rel="noreferrer"
           >
-            Open source code
+            Github
           </a>{" "}
-          on Github by Virginia Romero
+          and hosted on{" "}
+          <a
+            href="https://dashing-faun-0757dd.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
+          </a>{" "}
+          by Virginia Romero
         </footer>
       </div>
     </div>

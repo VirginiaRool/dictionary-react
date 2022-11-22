@@ -1,6 +1,6 @@
 .App {
   font-family: "Lato", sans-serif;
-  background-color: #e4e3e9;
+  background-color: #22295f;
 }
 
 .App-header {
@@ -24,4 +24,9 @@
   font-size: 13px;
   text-align: center;
   padding: 10px;
+  color: #ced4da;
+}
+
+.App-footer a {
+  color: #05aeb9;
 }
