@@ -1,0 +1,25 @@
+.Phonetics {
+  color: #05aeb9;
+  margin: 15px 5px;
+  /* color: #ced4da; */
+}
+
+.Phonetics img {
+  max-height: 20px;
+}
+
+.Phonetics a {
+  border: 1px solid #05aeb9;
+  border-radius: 20px;
+  color: #05aeb9;
+  font-size: 14px;
+  padding: 5px 10px;
+  margin: 5px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.Phonetics a:hover {
+  background: #05aeb9;
+  color: #22295f;
+}
