@@ -1,15 +1,29 @@
 .Dictionary {
-  text-align: center;
   font-family: "Lato", sans-serif;
 }
 
+.Dictionary section {
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+  background: #f1f0f7;
+  border: 0px;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin: 10px 5px 20px 5px;
+  color: #222960;
+  box-shadow: 0px 10px 10px #110257;
+}
+
 .Dictionary .text-instructions {
-  color: #ced4da;
+  color: #110257;
+  font-weight: bold;
 }
 
 input {
   width: 50%;
-  border-radius: 7px;
-  text-align: center;
-  margin: 8px 0px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 8px;
+  padding: 6px 10px;
+  color: grey;
 }

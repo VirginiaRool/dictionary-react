@@ -1,7 +1,8 @@
 .Phonetics {
   color: #05aeb9;
-  margin: 15px 5px;
-  /* color: #ced4da; */
+  margin: 10px 5px;
+  font-weight: bold;
+  font-size: 17px;
 }
 
 .Phonetics img {
@@ -10,11 +11,11 @@
 
 .Phonetics a {
   border: 1px solid #05aeb9;
-  border-radius: 20px;
+  border-radius: 15px;
   color: #05aeb9;
   font-size: 14px;
   padding: 5px 10px;
-  margin: 5px;
+  margin-right: 10px;
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }

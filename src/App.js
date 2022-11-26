@@ -10,7 +10,7 @@ export default function App() {
           <div className="App-welcome-text">Welcome to</div>
           <img src={myDictionaryLogo} className="App-logo" alt="logo" />
         </header>
-        <Dictionary />
+        <Dictionary defaultKeyword="sunset" />
         <footer className="App-footer">
           Open source code on{" "}
           <a

@@ -1,11 +1,6 @@
-.Results {
-  padding-top: 12px;
-}
-
 .Results .wordResult {
   color: #ee5b3e;
   font-weight: 900;
   font-size: 35px;
-  padding-top: 12px;
   letter-spacing: 1.5px;
 }
