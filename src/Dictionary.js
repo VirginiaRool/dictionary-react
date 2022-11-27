@@ -36,7 +36,7 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <section>
-          <div className="text-instructions">
+          <div className="dictionary-instructions">
             What word do you want to look up?
           </div>
           <form onSubmit={handleSubmit}>
@@ -47,6 +47,9 @@ export default function Dictionary(props) {
               onChange={handleKeywordChange}
             ></input>
           </form>
+          <div className="dictionary-examples">
+            For example: family, sunrise, mountain, etc...{" "}
+          </div>
         </section>
         <Results results={resultsList} />
       </div>

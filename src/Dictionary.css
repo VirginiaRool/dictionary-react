@@ -1,5 +1,7 @@
 .Dictionary {
   font-family: "Lato", sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .Dictionary section {
@@ -14,16 +16,20 @@
   box-shadow: 0px 10px 10px #110257;
 }
 
-.Dictionary .text-instructions {
-  color: #110257;
+.Dictionary .dictionary-instructions {
   font-weight: bold;
+}
+
+.Dictionary .suggested-words {
+  font-size: 12px;
+  color: grey;
 }
 
 input {
   width: 50%;
   border: 1px solid #ddd;
   border-radius: 8px;
-  margin-top: 8px;
+  margin: 8px 0px;
   padding: 6px 10px;
   color: grey;
 }
