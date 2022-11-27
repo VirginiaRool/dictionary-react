@@ -28,7 +28,14 @@ export default function App() {
           >
             Netlify
           </a>{" "}
-          by Virginia Romero
+          by{" "}
+          <a
+            href="https://unruffled-archimedes-fea2bd.netlify.app/</footer>"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Virginia Romero
+          </a>
         </footer>
       </div>
     </div>
