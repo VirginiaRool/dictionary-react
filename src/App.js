@@ -30,7 +30,7 @@ export default function App() {
           </a>{" "}
           by{" "}
           <a
-            href="https://unruffled-archimedes-fea2bd.netlify.app/</footer>"
+            href="https://unruffled-archimedes-fea2bd.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
